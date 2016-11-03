@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalculatorML</string>
+    <string name="calculate">Calculate</string>
+    <string name="e_g_5_6">e.g. 5/6</string>
+    <string name="h_x_pentru_fractie">H(X) pentru fractie</string>
+    <string name="h_pentru_partitie">h pentru partitie</string>
+    <string name="result">Result</string>
+    <string name="h_y_x">H(Y|X)</string>
+    <string name="partitie_1">Partitie 1</string>
+    <string name="partitie_2">Partitie 2</string>
+    <string name="calculate_h_y_x">Calculate H(Y|X)</string>
+    <string name="calculate_ig">Calculate IG</string>
+</resources>

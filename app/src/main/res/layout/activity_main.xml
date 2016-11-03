@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context="matei.ml.calculatorml.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/h_x_pentru_fractie" />
+
+            <EditText
+                android:id="@+id/h_fractie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/e_g_5_6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calculate_h_fractie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculateFractie"
+                android:text="@string/calculate" />
+
+            <TextView
+                android:id="@+id/result_fractie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/h_pentru_partitie" />
+
+            <EditText
+                android:id="@+id/h_partitie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 5 6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calculate_h_partitie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculatePartitie"
+                android:text="@string/calculate" />
+
+            <TextView
+                android:id="@+id/result_partitie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/h_y_x" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/partitie_1" />
+
+            <EditText
+                android:id="@+id/h_conditionala_p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="5 6" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/partitie_2" />
+
+            <EditText
+                android:id="@+id/h_conditionala_p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 5 6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calculate_h_conditionala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculateCondit"
+                android:text="@string/calculate_h_y_x" />
+
+            <TextView
+                android:id="@+id/result_conditionala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/calculate_ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="calculateIG"
+                android:text="@string/calculate_ig" />
+
+            <TextView
+                android:id="@+id/result_ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
